@@ -2400,5 +2400,27 @@
         }
       ]
     }
+  },
+  {
+    "name": "torch._cast_Long",
+    "schema": {
+      "attributes": [
+        {
+          "default": false,
+          "name": "non_blocking",
+          "type": "boolean"
+        }
+      ],
+      "inputs": [
+        {
+          "name": "input"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output"
+        }
+      ]
+    }
   }
 ]
